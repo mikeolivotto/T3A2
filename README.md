@@ -238,14 +238,33 @@ Our initial user stories used basic personas that had only one trait. Our revisi
 
 ## R5 - Wireframes
 
-
 **MOBILE**
 
+* Login / Profile / User Stats
+* Create Group / Group Overview
+* Create Game / Game Overview
+* Score Tracker / Game Leaderboard
+* Group / Last Game Overview
 
+**TABLET**
+
+* Login / Profile / User Stats
+* Create Group / Group Overview
+* Create Game / Game Overview
+* Score Tracker / Game Leaderboard
+* Group / Last Game Overview
 
 **DESKTOP** 
 
-
+* Login
+* Profile / User Stats
+* Create Group
+* Group Overview
+* Create Game
+* Game Overview
+* Score Tracker
+* Game Leaderboard
+* Group / Last Game Overview
 
 ## R6 - Project Management (Trello board)
 
