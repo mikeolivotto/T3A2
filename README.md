@@ -1,4 +1,7 @@
+
+
 # T3A2 - Final Assignment (Part A)
+
 ​	Malan Christensen
 ​	Mike Olivotto
 ​	Nick Saltis
@@ -111,36 +114,118 @@ The following personas have been developed to provide general insight into the a
 ## R4 - User Stories
 
 User stories are grouped based on the features that we aim to implement to achieve our MVP for this project and additional features that we would like to implement once the foundation of the app is in place. 
+
 Our initial user stories used basic personas that had only one trait. Our revisions incorporated the personas that we identified as being our target audience into the user stories to better envisage how our users would want to interact with the app.
-MVP:
-Authentication - log in as a user and/or platform/game admin
-Ver. 1I participate in lots of activities, I want to be able to securely log in so that my score and progress history is not manipulated by anyone else.Ver. 2I am James, a board game player. I want to be able to securely log in to the app and have my own profile that records the results of games I have participated in so that my player stats are retained and are not changed by other people accessing my profile. 
 
-​	Ver. 1I am running a game night, I want it to be easy to login so that my players can easily join the app and I can invite them to my group. Ver. 2I’m Hillary, a frequent games organiser. I want it to be simple to sign up to the app so that when I invite new players to my gaming group they do not feel deterred from joining in or may end up relying on me to set up their account. 
-User creates game group/event and invite users to game Ver. 1I have invited my friends to play a game with me, I want to be able to invite them to a group so that we can track the results of our gamesVer. 2I’m Hillary and I'm starting a games night group. I want to be able to quickly find my friends on the app and invite them to my group so that we can spend less time setting up and spend more time having fun playing games with my friends. 
-​	Ver. 1I am meeting my friends to play games, I want to easily join the group that I have been invited to so that I can track my scores with that groupVer. 2I’m Blake and I facilitate my gaming customers in my store. I want it to be simple for them to join the groups they have been invited to and for the groups gaming history to be recorded so that customers are encouraged to participate in groups that play at my store and for them to want to return so that they can continue to compete against the other group members. 
-Scorekeeping individual games	Ver. 1I frequently participate in games, I want to be able to view my profile to see visual feedback on my performance so that I can try to improve if I am not doing wellVer. 2I’m James and I play many games with different groups. I want to be able to review my performance in all the games that I have participated in so that I can have a clearer picture of how I perform playing certain games or with different opponents and use that information to try and improve my playing. 
-​	Ver. 1I play board games, I want to be able to track the score of a game so that it is convenient to play and fair for everyoneVer. 2I’m Hillary and I'm playing a game with a group of my friends. I want to be able to track the score of the game on my phone so that I can keep track for everyone else so they can focus on enjoying the game and for me to feel confident that the score is accurate and the result of the game is fair which would stop people from feeling frustrated or alienated when we play. 
+#### MVP:
 
-Tracking historical results for groups and individual users 
-Ver. 1I play with friends regularly, we want to be able to track our scores over time so that we can measure our progress and be competitiveVer. 2I’m Hillary, I play games with the same group of friends regularly. I want to be able to see the results of all the games we have played together because we enjoy being competitive and it would give us insight as to who is the person to beat, or who might need a handicap so that playing together stays fun, fair, and something to look forward to. 
+* Authentication - log in as a user and/or platform/game admin
 
-Leaderboard (per game, most games played, most games won etc)
-Ver. 1I attend games nights, I want to be able to view leaderboards so that I can see how well I performedVer. 2I’m James, I’ve just played a game with my friends. I want to be able to view the results of the game I just played so that I can discuss the results with my friends and compare our performance.		Ver. 1I prefer to have an overview of the score of all the players in the game Ver. 2I’m Hillary, I’m running a game with my friends. I want to be able to view the leaderboard for the game as it is in progress and display the score for an individual player so that my players can stay informed of how they are performing and so that I can identify if anyone is struggling and help them to try a different strategy and not feel bored or left out.
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I participate in lots of activities, I want to be able to securely log in so that my score and progress history is not manipulated by anyone else. |
+  | Ver. 2  | I am James, a board game player. I want to be able to securely log in to the app and have my own profile that records the results of games I have participated in so that my player stats are retained and are not changed by other people accessing my profile. |
 
-Creating custom score counters (increment by 1, 2, 3 etc..)
-Ver. 1I play lots of different games, I want to be able to customize my activity tracker so that the buttons make sense and are convenient for the chosen gameVer. 2I’m Blake, I accommodate lots of different games at my store. I want my customers to be able to customise their game trackers so that they are relevant and convenient for the games they are playing, which might make them feel supported by the store and encourage them to return to play and support my business. 
-	
-Additional Features: 
-Custom Tracker components
-Ver. 1I play different types of games, I want to be able to use different types of score/time trackers because different games have different objectivesVer. 2I’m Blake, I run many different types of games in my store. I want my customers to be able to easily create trackers that accommodate the different objectives or rules of the games they are playing because complex games are difficult to keep track of and my customers would appreciate my store helping them to focus more on having fun which would hopefully increase customer retention and spending. 
-	Ver. 1I use this app frequently, I want to be able to use trackers that other users have created so that I can save time creating my ownVer. 2I’m Hillary, I’m playing a new game with my friends tonight. I want to be able to find and use a tracker that another user has created so that I can spend more time having fun playing with my friends than worrying about trying to set up the perfect score tracker for the game we are playing. 
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I am running a game night, I want it to be easy to login so that my players can easily join the app and I can invite them to my group. |
+  | Ver. 2  | I’m Hillary, a frequent games organiser. I want it to be simple to sign up to the app so that when I invite new players to my gaming group they do not feel deterred from joining in or may end up relying on me to set up their account. |
 
-Creating events which contain multiple games and tracks the overall results.
-Ver. 1I run game nights with many attendees, I want to be able to create multiple activities and track their results so that I can award the best playersVer. 2I’m Blake, I am running a gaming event at my store. I want to be able to easily set up an event that my customers can enter in and keep track of the results of the games played as part of the event so that I can definitively award the best players and so that my customers can view their rankings in the event and feel excited to return and try again.
+  
 
-User invite/access code authorization for games/events.
-Ver. 1As a game store owner, I want customers to be able to easily access our event trackers so that they are more likely to attend and spend money in my storeVer. 2I’m Blake, I’ve set up a gaming event for my store. I want it to be easy for customers to access and register for the event so that they are more likely to attend and to encourage their friends to attend it and spend money supporting my store. 
+* User creates game group/event and invite users to game 
+
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I have invited my friends to play a game with me, I want to be able to invite them to a group so that we can track the results of our games |
+  | Ver. 2  | I’m Hillary and I'm starting a games night group. I want to be able to quickly find my friends on the app and invite them to my group so that we can spend less time setting up and spend more time having fun playing games with my friends. |
+
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I am meeting my friends to play games, I want to easily join the group that I have been invited to so that I can track my scores with that group |
+  | Ver. 2  | I’m Blake and I facilitate my gaming customers in my store. I want it to be simple for them to join the groups they have been invited to and for the groups gaming history to be recorded so that customers are encouraged to participate in groups that play at my store and for them to want to return so that they can continue to compete against the other group members. |
+
+  
+
+* Scorekeeping individual games	
+
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I frequently participate in games, I want to be able to view my profile to see visual feedback on my performance so that I can try to improve if I am not doing well |
+  | Ver. 2  | I’m James and I play many games with different groups. I want to be able to review my performance in all the games that I have participated in so that I can have a clearer picture of how I perform playing certain games or with different opponents and use that information to try and improve my playing. |
+
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I play board games, I want to be able to track the score of a game so that it is convenient to play and fair for everyone |
+  | Ver. 2  | I’m Hillary and I'm playing a game with a group of my friends. I want to be able to track the score of the game on my phone so that I can keep track for everyone else so they can focus on enjoying the game and for me to feel confident that the score is accurate and the result of the game is fair which would stop people from feeling frustrated or alienated when we play. |
+
+  
+
+* Tracking historical results for groups and individual users 
+
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I play with friends regularly, we want to be able to track our scores over time so that we can measure our progress and be competitive |
+  | Ver. 2  | I’m Hillary, I play games with the same group of friends regularly. I want to be able to see the results of all the games we have played together because we enjoy being competitive and it would give us insight as to who is the person to beat, or who might need a handicap so that playing together stays fun, fair, and something to look forward to. |
+
+  
+
+* Leaderboard (per game, most games played, most games won etc)
+
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I attend games nights, I want to be able to view leaderboards so that I can see how well I performed |
+  | Ver. 2  | I’m James, I’ve just played a game with my friends. I want to be able to view the results of the game I just played so that I can discuss the results with my friends and compare our performance. |
+
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I prefer to have an overview of the score of all the players in the game |
+  | Ver. 2  | I’m Hillary, I’m running a game with my friends. I want to be able to view the leaderboard for the game as it is in progress and display the score for an individual player so that my players can stay informed of how they are performing and so that I can identify if anyone is struggling and help them to try a different strategy and not feel bored or left out. |
+
+  
+
+* Creating custom score counters (increment by 1, 2, 3 etc..)
+
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I play lots of different games, I want to be able to customize my activity tracker so that the buttons make sense and are convenient for the chosen game |
+  | Ver. 2  | I’m Blake, I accommodate lots of different games at my store. I want my customers to be able to customise their game trackers so that they are relevant and convenient for the games they are playing, which might make them feel supported by the store and encourage them to return to play and support my business. |
+
+  
+
+#### Additional Features: 
+
+* Custom Tracker components
+
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I play different types of games, I want to be able to use different types of score/time trackers because different games have different objectives |
+  | Ver. 2  | I’m Blake, I run many different types of games in my store. I want my customers to be able to easily create trackers that accommodate the different objectives or rules of the games they are playing because complex games are difficult to keep track of and my customers would appreciate my store helping them to focus more on having fun which would hopefully increase customer retention and spending. |
+
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I use this app frequently, I want to be able to use trackers that other users have created so that I can save time creating my own |
+  | Ver. 2  | I’m Hillary, I’m playing a new game with my friends tonight. I want to be able to find and use a tracker that another user has created so that I can spend more time having fun playing with my friends than worrying about trying to set up the perfect score tracker for the game we are playing. |
+
+  
+
+* Creating events which contain multiple games and tracks the overall results.
+
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | I run game nights with many attendees, I want to be able to create multiple activities and track their results so that I can award the best players |
+  | Ver. 2  | I’m Blake, I am running a gaming event at my store. I want to be able to easily set up an event that my customers can enter in and keep track of the results of the games played as part of the event so that I can definitively award the best players and so that my customers can view their rankings in the event and feel excited to return and try again. |
+
+  
+
+* User invite/access code authorization for games/events.
+
+  | Version | Story                                                        |
+  | ------- | ------------------------------------------------------------ |
+  | Ver. 1  | As a game store owner, I want customers to be able to easily access our event trackers so that they are more likely to attend and spend money in my store |
+  | Ver. 2  | I’m Blake, I’ve set up a gaming event for my store. I want it to be easy for customers to access and register for the event so that they are more likely to attend and to encourage their friends to attend it and spend money supporting my store. |
+
+  
 
 
 ## R5 - Wireframes
