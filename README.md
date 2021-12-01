@@ -107,7 +107,15 @@ The following personas have been developed to provide general insight into the a
 
 
 
+![Score_Tracker_DFD_PostFeedback](/Users/michaelolivotto/CA/assignments/Term 3/T3A2/docs/Score_Tracker_DFD_PostFeedback.jpeg)
+
+
+
 ## R3 - Application Architecture Diagram
+
+
+
+![app-architecture-diagram](/Users/michaelolivotto/CA/assignments/Term 3/T3A2/docs/app-architecture-diagram.png)
 
 
 
@@ -257,10 +265,12 @@ Our system utilises:
 
 
 
-**[IMAGE]**
+**![trello](/Users/michaelolivotto/CA/assignments/Term 3/T3A2/docs/trello.png)**
 
 Trello board as at 1/12/21
 
-**[IMAGE]**
+
+
+**![planyway](/Users/michaelolivotto/CA/assignments/Term 3/T3A2/docs/planyway.png)**
 
 Planyway integration with Trello providing a Gantt chart style visualisation of tasks
